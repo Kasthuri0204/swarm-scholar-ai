@@ -1,0 +1,12 @@
+# Environment variables
+.env
+
+# Python cache
+__pycache__/
+*.pyc
+
+# Outputs folder
+outputs/
+
+# Virtual environment
+venv/
