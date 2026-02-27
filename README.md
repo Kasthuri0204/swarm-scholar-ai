@@ -17,6 +17,7 @@ Instead of using a single LLM response, SwarmScholar AI orchestrates a swarm of 
 ✅ Structured Final Report with Citations
 ✅ Modular & Extensible Architecture
 
+
 🏗️ Project Architecture
 
 The system follows a Swarm Intelligence Model, where each agent performs a dedicated task:
@@ -38,6 +39,8 @@ Hypothesis Agent
 Report Agent
         ↓
 Final Research Report (Saved Output)
+
+
 
 🤖 Agents Overview
 
@@ -78,27 +81,6 @@ Compiles all outputs
 Generates a final structured research document with citations
 
 
-📂 Project Structure
-swarm-scholar-ai/
-│
-├── agents/
-│   ├── field_detector_agent.py
-│   ├── literature_agent.py
-│   ├── critic_agent.py
-│   ├── debate_agent.py
-│   ├── hypothesis_agent.py
-│   └── report_agent.py
-│
-├── rag/
-│   ├── paper_fetcher.py
-│
-├── utils/
-│   ├── file_utils.py
-│
-├── main.py
-├── components.py
-├── styles.py
-└── requirements.txt
 
 🧩 Technologies Used
 
